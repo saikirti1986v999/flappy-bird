@@ -102,7 +102,7 @@ function make_bird_tilt_appropriately() {
   if (bird.velocity_y < 0) {
     bird.angle = -15;
   } else if (bird.angle < 70) {
-    bird.angle = bird.angle + 4;
+    bird.angle = bird.angle + 2;
   }
 }
 function show_the_pipes() {
