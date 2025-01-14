@@ -1,8 +1,8 @@
 var ctx = myCanvas.getContext('2d');
 var FPS = 40;
-var jump_amount = -7.79;
-var max_fall_speed = +7;
-var acceleration = 1.5;
+var jump_amount = -7.8;
+var max_fall_speed = +5;
+var acceleration = 1;
 var pipe_speed = -2;
 var game_mode = 'prestart';
 var time_game_last_running;
