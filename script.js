@@ -101,7 +101,7 @@ function add_pipe(x_pos, top_of_gap, gap_width) {
 function make_bird_tilt_appropriately() {
   if (bird.velocity_y < 0) {
     bird.angle = -10;
-  } else if (bird.angle < 50) {
+  } else if (bird.angle < 30) {
     bird.angle = bird.angle + 1;
   }
 }
